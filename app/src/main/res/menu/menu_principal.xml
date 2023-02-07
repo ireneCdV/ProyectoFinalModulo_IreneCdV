@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Zapatillas"
+        android:title="Zapatillas" />
+
+    <item
+        android:id="@+id/OpcionesZapatillas"
+        android:title="Opciones Zapatillas" />
+
+    <item
+        android:id="@+id/Galeria"
+        android:title="Galeria" />
+
+    <item
+        android:id="@+id/salir"
+        android:title="Salir"
+        android:icon="@drawable/icono_salir"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>

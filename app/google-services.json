@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204708493324",
+    "project_id": "proyectopmdm-4b2fb",
+    "storage_bucket": "proyectopmdm-4b2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204708493324:android:84e68a7d70cf048b179629",
+        "android_client_info": {
+          "package_name": "com.example.proyectofinalmodulo_irenecdv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204708493324-l8dhmtdlsgn4on4k1tgojp2rsrpbc7us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx_sc9XWQQTpRlAzG80FJDFqnqfo23L24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204708493324-l8dhmtdlsgn4on4k1tgojp2rsrpbc7us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

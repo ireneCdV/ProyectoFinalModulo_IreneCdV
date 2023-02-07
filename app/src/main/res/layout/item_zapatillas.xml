@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="214dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="146dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="226dp"
+        android:hint="Id:"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/marca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/foto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/marca"
+        android:layout_width="146dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="68dp"
+        android:hint="Marca:"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/foto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/modelo"
+        android:layout_width="146dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="68dp"
+        android:hint="Modelo:"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/foto"
+        app:layout_constraintTop_toBottomOf="@+id/marca" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="146dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="68dp"
+        android:hint="Color:"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/foto"
+        app:layout_constraintTop_toBottomOf="@+id/modelo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
